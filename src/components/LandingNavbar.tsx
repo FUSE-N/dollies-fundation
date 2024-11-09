@@ -37,7 +37,7 @@ import {
 } from '@tabler/icons-react';
 import {useEffect, useState} from "react";
 import {BrandName, SearchDrawer} from "./index";
-import Logo from './Logo'; // Logo component
+// import Logo from './Logo'; // Logo component
 import {Link} from "react-router-dom";
 
 const useStyles = createStyles((theme) => ({
