@@ -71,9 +71,9 @@ const DonationDrawer = ({campaign, iconSize, ...others}: IProps) => {
                         rightSection={<IconCurrencyDollar size={iconSize}/>}
                     />
                     <Paper {...paperProps}>
-                        <Text fw={500}>Tip CrowdUp services</Text>
-                        <Text size="sm" my="xs">CrowdUp has a 0% platform fee for organizers. CrowdUp will continue
-                            offering its services
+                        <Text fw={500}>Tip Dollies services</Text>
+                        <Text size="sm" my="xs">Dollies has a 0% platform fee for organizers. CrowdUp will continue
+                            offering its services,
                             thanks to donors who will leave an optional amount here:</Text>
                         <Slider
                             marks={[
@@ -170,7 +170,7 @@ const DonationDrawer = ({campaign, iconSize, ...others}: IProps) => {
                                 <Text fw={500}>$0.00</Text>
                             </Group>
                             <Group position="apart">
-                                <Text>CrowdUp tip</Text>
+                                <Text>Dollies tip</Text>
                                 <Text fw={500}>$0.00</Text>
                             </Group>
                             <Group position="apart">
@@ -182,7 +182,7 @@ const DonationDrawer = ({campaign, iconSize, ...others}: IProps) => {
                     </Paper>
                     <Paper {...paperProps}>
                         <Stack>
-                            <Text size="sm">By continuing, you agree with <Anchor>CrowdUp terms</Anchor> and <Anchor>privacy
+                            <Text size="sm">By continuing, you agree with <Anchor>Dollies terms</Anchor> and <Anchor>privacy
                                 notice.</Anchor></Text>
                             <Text size="sm">Learn more about <Anchor>pricing and fees.</Anchor></Text>
                             <Flex gap="sm">
@@ -190,7 +190,7 @@ const DonationDrawer = ({campaign, iconSize, ...others}: IProps) => {
                                     <IconShieldCheckFilled size={18}/>
                                 </ThemeIcon>
                                 <Text size="sm">We guarantee you a full refund for up to a year in the rare case that
-                                    fraud occurs.&nbsp;<Anchor>See our CrowdUp Giving Guarantee.</Anchor>
+                                    fraud occurs.&nbsp;<Anchor>See our Dollies Giving Guarantee.</Anchor>
                                 </Text>
                             </Flex>
                         </Stack>

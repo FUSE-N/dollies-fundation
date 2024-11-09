@@ -254,7 +254,7 @@ const LandingNavbar = ({compressed}: IProps) => {
                                     <a href="#" className={classes.link}>
                                         <Center inline>
                                             <Box component="span" mr={5}>
-                                                Invest
+                                            Categories
                                             </Box>
                                             <IconChevronDown size={18} className={classes.linkIcon}/>
                                         </Center>
@@ -263,7 +263,7 @@ const LandingNavbar = ({compressed}: IProps) => {
 
                                 <HoverCard.Dropdown sx={{overflow: 'hidden'}}>
                                     <Group position="apart" px="md">
-                                        <Text fw={500} color="dark">Categories</Text>
+                                        <Text fw={500} color="dark"></Text>
                                         <Button variant="default">See all</Button>
                                     </Group>
 
@@ -286,12 +286,18 @@ const LandingNavbar = ({compressed}: IProps) => {
                             >
                                 Search
                             </Button>
-                            <Button component={Link} to="/create-campaign" className={classes.link} {...buttonProps}>
+                            {/* <Button component={Link} to="/create-campaign" className={classes.link} {...buttonProps}>
                                 Start a campaign
-                            </Button>
-                            <Button component={Link} to="/dashboard" className={classes.link} {...buttonProps}>
+                            </Button> */}
+                            {/* <Button component={Link} to="/dashboard" className={classes.link} {...buttonProps}>
                                 My dashboard
+                            </Button> */}
+                            <Button component={Link} to="#" className={classes.link} {...buttonProps}>
+                                Donate
                             </Button>
+                            <Button component={Link} to="/Signup" className={classes.link} {...buttonProps}>
+                                Join Us
+                            </Button> 
                         </Flex>
                         <Burger opened={drawerOpened} onClick={toggleDrawer} className={classes.hiddenDesktop}/>
                     </Flex>

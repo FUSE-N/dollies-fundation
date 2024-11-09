@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {Avatar, createStyles, Group, Menu, Text, UnstyledButton} from '@mantine/core';
+import {Avatar, Button, ButtonProps,createStyles, Group, Menu, Text, UnstyledButton} from '@mantine/core';
 import {
     IconChevronRight,
     IconHeart,
@@ -11,7 +11,9 @@ import {
     IconSwitchHorizontal,
     IconTrash
 } from '@tabler/icons-react';
-import userData from "../data/User.json"
+
+import userData from "../data/User.json";
+import {Link} from "react-router-dom";
 
 const useStyles = createStyles((theme) => ({
     user: {
@@ -62,6 +64,10 @@ const UserButton = () => {
                 </UnstyledButton>
             </Menu.Target>
             <Menu.Dropdown>
+                <Menu.Item 
+                    button = {<Button component={Link} to="/dashboard" > My dashboard</Button> } 
+                >
+                </Menu.Item>
                 <Menu.Item
                     icon={<IconHeart size="0.9rem" color={theme.colors.red[6]} stroke={1.5}/>}
                 >

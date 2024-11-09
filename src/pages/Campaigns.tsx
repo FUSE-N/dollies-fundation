@@ -26,13 +26,13 @@ const CampaignsPage = (): JSX.Element => {
     return (
         <>
             <Helmet>
-                <title>Discover campaigns to fund</title>
+                <title>Discover Events to fund</title>
             </Helmet>
             <Box>
                 <Container size="lg">
                     <Stack>
                         <Box {...boxProps}>
-                            <Title {...titleProps} align="center">Discover campaigns to fund</Title>
+                            <Title {...titleProps} align="center">Discover Events to fund</Title>
                         </Box>
                         <Flex
                             justify="space-between"

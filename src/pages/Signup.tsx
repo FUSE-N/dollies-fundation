@@ -29,7 +29,7 @@ const SignupPage = () => {
                 </Title>
                 <Text color="dimmed" size="sm" align="center" mt={5}>
                     Already have an account?{' '}
-                    <Anchor size="sm" component="button">
+                    <Anchor   size="sm" component="button">
                         Login
                     </Anchor>
                 </Text>
